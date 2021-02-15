@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.container>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: blue;
+    height: 120px;
+}
+
+.footer{
+    background-color: cadetblue;
+    height: 80px;
+}
+
+.main{
+    text-align: center;
+    background-color: darkgoldenrod;
+    height: 300px;
+    font-size: 24px;
+}
+
+.content1{
+    background-color: darkgreen;
+}
+
+.content2{
+    background-color: darkolivegreen;
+}
+
+.content3{
+    background-color: greenyellow;
+}

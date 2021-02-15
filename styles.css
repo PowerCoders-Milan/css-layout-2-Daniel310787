@@ -1,17 +1,46 @@
-/* USE CSS LAYOUTS HERE */
-
-.header {
-
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas: 
+  "nav nav nav nav" 
+  "main main main main"
+  "content1 content2 content3 content4"
+  "footer footer footer footer";
+  grid-gap: 0.2rem
+}
+nav{
+    background-color: chartreuse;
+    grid-area: nav;
+}
+main{
+    background-color: chocolate;
+    grid-area: main;
+}
+.content1{
+    background-color: white;
+    grid-area: content1;
+   
+}
+.content2{
+    background-color: white;
+    grid-area: content2;
+}
+.content3{
+    background-color: white;
+    grid-area: content3;
+}
+.content4{
+    background-color: white;
+    grid-area: content4;
+}
+.footer{
+    background-color: mediumorchid;
+    grid-area: footer;
+}
+figure img{
+    width: 280px;
+    border:solid black;
 }
 
-.main {
-
-}
-
-.footer-grid {
-
-}
-
-.footer-flex {
-
-}
